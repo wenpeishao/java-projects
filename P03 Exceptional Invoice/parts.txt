@@ -1,0 +1,15 @@
+14
+basic pedals $12.50
+upgraded pedals $39.99
+leather seat $150.00
+basic seat $31.99
+bmx seat $249.00
+brake pads $19.99
+aero wheel $400.00
+road bike innertube $5.99
+mountain bike innertube $5.99
+mountain bike tire $80.00
+road bike tire $150.00
+winter tire $241.50
+fat bike tire $168.00
+chain $7.95

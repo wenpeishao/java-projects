@@ -1,0 +1,113 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> refs/remotes/origin/main
+Script started on 2022-10-06 04:07:14+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="111" LINES="37"]
+[?2004h]0;aahunbay@cs400: ~/Project1_DE_blue[01;32maahunbay@cs400[00m:[01;34m~/Project1_DE_blue[00m$ git statuss[K
+[?2004lOn branch BackendDeveloper
+Your branch is ahead of 'origin/BackendDeveloper' by 1 commit.
+<<<<<<< HEAD
+=======
+Script started on 2022-10-04 22:10:56+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="95" LINES="34"]
+[?2004h]0;acarrig@cs-01: ~/Project1_DE_blue[01;32macarrig@cs-01[00m:[01;34m~/Project1_DE_blue[00m$ git stt[Katus
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+>>>>>>> origin/FrontendDeveloper
+=======
+>>>>>>> refs/remotes/origin/main
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> refs/remotes/origin/main
+	[31mlog[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;aahunbay@cs400: ~/Project1_DE_blue[01;32maahunbay@cs400[00m:[01;34m~/Project1_DE_blue[00m$ git log -1
+[?2004l[?1h=[33mcommit d5440d978c1cc34e56b734c886ef9002f2bab495[m[33m ([m[1;36mHEAD -> [m[1;32mBackendDeveloper[m[33m)[m[m
+Author: Ahmet Ahunbay <aahunbay@wisc.edu>[m
+Date:   Thu Oct 6 04:04:49 2022 +0000[m
+[m
+    Commited java and class files[m
+[K[?1l>[?2004h]0;aahunbay@cs400: ~/Project1_DE_blue[01;32maahunbay@cs400[00m:[01;34m~/Project1_DE_blue[00m$ make clean
+[?2004lmake: *** No rule to make target 'clean'.  Stop.
+[?2004h]0;aahunbay@cs400: ~/Project1_DE_blue[01;32maahunbay@cs400[00m:[01;34m~/Project1_DE_blue[00m$ ls
+[?2004lAlgoEngineer.class          BookMapper.java          IBook.java                IterableMapADT.class
+AlgoEngineer.java           BookMapperBackend.class  IBookLoader.java          IterableMapADT.java
+AlgoNode.class              BookMapperBackend.java   IBookMapperBackend.class  MapADT.class
+AlgoNode.java               HashIterator.class       IBookMapperBackend.java   MapADT.java
+BackendDeveloperTest.class  HashIterator.java        IBookMapperFrontend.java  books.csv
+BackendDeveloperTest.java   IBook.class              IISBNValidator.java       log
+[?2004h]0;aahunbay@cs400: ~/Project1_DE_blue[01;32maahunbay@cs400[00m:[01;34m~/Project1_DE_blue[00m$ make runTests
+[?2004lmake: *** No rule to make target 'runTests'.  Stop.
+[?2004h]0;aahunbay@cs400: ~/Project1_DE_blue[01;32maahunbay@cs400[00m:[01;34m~/Project1_DE_blue[00m$ e[Kes[Kxit
+[?2004lexit
+
+Script done on 2022-10-06 04:08:01+00:00 [COMMAND_EXIT_CODE="2"]
+<<<<<<< HEAD
+=======
+	[31mBook.class[m
+	[31mBook.java[m
+	[31mBookMapperBackend.class[m
+	[31mBookMapperBackend.java[m
+	[31mBookMapperFrontend.class[m
+	[31mFrontendDeveloperTest.class[m
+	[31mIBook.class[m
+	[31mIBookMapperBackend.class[m
+	[31mIBookMapperFrontend.class[m
+	[31mIISBNValidator.class[m
+	[31mISBNValidator.class[m
+	[31mISBNValidator.java[m
+	[31mMakefile[m
+	[31mTextUITester.class[m
+	[31mTextUITester.java[m
+	[31mlog[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;acarrig@cs-01: ~/Project1_DE_blue[01;32macarrig@cs-01[00m:[01;34m~/Project1_DE_blue[00m$ git log -1
+[?2004l[?1h=[33mcommit 85089885a2fae4d77b0f74c2e173e9d2008b83ae[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;32mFrontendDeveloper[m[33m)[m[m
+Author: Aidan Carrig <acarrig@wisc.edu>[m
+Date:   Tue Oct 4 21:03:52 2022 +0000[m
+[m
+    The tester class for BookMapperFrontend.java[m
+[K[?1l>[?2004h]0;acarrig@cs-01: ~/Project1_DE_blue[01;32macarrig@cs-01[00m:[01;34m~/Project1_DE_blue[00m$ make clean
+[?2004lrm *.class
+[?2004h]0;acarrig@cs-01: ~/Project1_DE_blue[01;32macarrig@cs-01[00m:[01;34m~/Project1_DE_blue[00m$ ls
+[?2004lBook.java                   IBookLoader.java          Makefile
+BookMapper.java             IBookMapperBackend.java   TextUITester.java
+BookMapperBackend.java      IBookMapperFrontend.java  books.csv
+BookMapperFrontend.java     IISBNValidator.java       log
+FrontendDeveloperTest.java  ISBNValidator.java
+IBook.java                  IterableMapADT.java
+[?2004h]0;acarrig@cs-01: ~/Project1_DE_blue[01;32macarrig@cs-01[00m:[01;34m~/Project1_DE_blue[00m$ make runTests 
+[?2004ljavac FrontendDeveloperTest.java
+java FrontendDeveloperTest
+Welcome to the Book Mapper Application!
+x+x+xx+x+xx+x+xx+x+xx+x+xx+x+xx+x+xx+x+x
+
+You are in the Main Menu:
+           1) Lookup ISBN
+           2) Search by Title Word
+           3) Set Author Name Filter
+           4) Exit Application
+
+You are in the Set Author Filter Menu: 
+      Author name must currently contain: none
+      Enter a new string for author names to contain (empty for any): You are in the Main Menu:
+           1) Lookup ISBN
+           2) Search by Title Word
+           3) Set Author Name Filter
+           4) Exit Application
+
+Goodbye!
+All tests passed! Hooray!
+[?2004h]0;acarrig@cs-01: ~/Project1_DE_blue[01;32macarrig@cs-01[00m:[01;34m~/Project1_DE_blue[00m$ exit
+[?2004lexit
+
+Script done on 2022-10-04 22:11:22+00:00 [COMMAND_EXIT_CODE="0"]
+>>>>>>> origin/FrontendDeveloper
+=======
+>>>>>>> refs/remotes/origin/main
